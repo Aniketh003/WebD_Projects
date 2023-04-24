@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="puzzle.png" type="png/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Guess_Number</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="text" placeholder="Your guess" id="inputbtn">
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+        </div>
+        <div class="operator">
+            <button class="del">DEL</button>
+            <button class="done">DONE</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="instructions">
+            <h1>Guess Number</h1>
+            <p>The number is between 1-50</p>
+        </div>
+        <div class="guesscnt" id="cntt">
+            <input type="text" name="cnt" placeholder="Guess count is : 0" id="cnt">
+        </div>
+        
+    </div>
+    <div class="Hint" id="text">
+        <textarea rows="15" cols="20" id="hint"></textarea>
+    </div>
+    <script src="Guess.js"></script>
+</body>
+</html>

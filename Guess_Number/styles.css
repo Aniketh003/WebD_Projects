@@ -1,0 +1,110 @@
+*{
+    margin: -2px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    background: rgb(0,0,0);
+    background-image: linear-gradient(to right, #252424 0%, rgb(54, 49, 49) 100%);
+}
+.container{
+    border: 2px solid rgb(7, 38, 48);
+    padding: 25px 45px;
+    margin:53px;
+    border-radius: 35px;
+    background: transparent;
+    float: left;
+    box-shadow: rgba(14, 6, 6, 0.56) 20px 22px 70px 4px;
+}
+input{
+    height: 134px;
+    width: 300px;
+    padding: 13px 23px;
+    text-align: right;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: #d7f084;
+}
+input::placeholder{
+    color: #726d6d;
+}
+button{
+    padding: 28px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    border-radius: 33px;
+    color: #f69473;
+    font-size: 23px;
+    cursor: grabbing;
+}
+
+button:hover{
+    background-color: #48493c;
+}
+.del{
+    color: #13c3de;
+    border-radius: 23px;
+    padding: 22px 24px 22px 24px;
+    background-color: rgb(21, 72, 76);
+}
+.done{
+    color: #f388b5;
+    border-radius: 23px;
+    padding: 22px 24px 22px 24px;
+    background-color: rgb(21, 72, 76);
+}
+.operator{
+    margin: 8px;
+}
+.done:hover{
+    background-color: #07607d;
+}
+.del:hover{
+    background-color: #4a4d4d;
+}
+.content{
+    display: flex;
+}
+.guesscnt{
+    float: right;
+    padding: 53px 23px 45px 50px;
+    width: 20px;
+    height: 23px;
+}
+.guesscnt input::placeholder{
+    color: #eb82ae;
+}
+.instructions{
+    font-size: 23px;
+    padding: 23px;
+    float: left;
+    margin: 3px;
+    color: #f99292;
+}
+.instructions h1{
+    text-decoration:underline;
+}
+.Hint{
+    align-items: center;
+    display: flex;
+    float: right;
+    justify-content: center;
+}
+
+textarea{
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    background: transparent;
+    color: #f99292;
+    display:flexbox;
+    float:  left;
+}
