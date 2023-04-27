@@ -1,0 +1,39 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(94, 94, 97);
+}
+
+button{
+    border: 1px solid rgb(42, 15, 27);
+    background-color: rgb(248, 76, 153);
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    background-color: #e1d2e0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    animation: scale 0.3s ease-out;
+
+}
+
+@keyframes scale{
+    to{
+        transform: translate(-50%,-50%) scale(3);
+        opacity: 0;
+    }
+}
