@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href=".Home" class="nav-item active">Home</a></li>
+        <li><a href=".Curriculum" class="nav-item">Curriculum vitea</a></li>
+        <li><a href=".works" class="nav-item">Works</a></li>
+        <li><a href=".contact" class="nav-item">Contact me</a></li>
+      </ul>
+    </nav>
+    <div id="bubble"></div>
+    <section class="Home" id="Home">
+      <div class="container">
+        <div class="intro">
+          <h1 class="hello">
+            Hello 👋 <br />
+            I'm Aniketh
+          </h1>
+          <p>
+            My name is Aniketh, and I am a talented software engineer with a
+            passion for designing exceptional portfolios. I specialize in 
+            creating visually appealing and user-friendly portfolios that 
+            showcase the unique skills and achievements of individuals in 
+            the tech industry.
+          </p>
+          <div class="container2">
+            <div class="hire">
+              <img src="svg-icons/search.svg" />
+              <a href="http://www.linkedin.com/in/Aniketh03">http://www.linkedin.com/in/Aniketh03</a>
+            </div>
+            <div class="hireme">
+              <a href="#contact">Hire me</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero">
+          <img src="Hero/Hero-img.png" alt="Hero Image" class="heroImg">
+          <h3 class="heroname">Aniketh Busavale  <span>he/him</span> </h3>
+          <div class="loc item">
+              <img src="svg-icons/location.svg" alt="" class="svg">
+              <p>Hyderabad,India</p>
+          </div>
+          <div class="mess item">
+              <img src="svg-icons/message.svg" alt="" class="svg">
+              <p>Thank you so much for showing interest and for viewing my
+                  portfolio</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Curriculum" id="Curriculum">
+      <div class="curriculum-container">
+        <div class="education">
+          <h2>🏫EDUCATION</h2>
+          <div class="college">
+            <p class="clgName">Guru Nanak Institutions,Hyderabad</p>
+            <p><span id="year">2021-2025</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="name">Computer Science Engineering</span></p>
+            <p class="clgName">Impulse Junior College,Hyderabad</p>
+            <p><span id="year">2019-2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="name">Intermediate in MPC</span></p>
+            <p class="clgName">Vijay High School,Armoor</p>
+            <p><span id="year">2007-2019</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="name">Completed my schooling</span></p>
+          </div>
+          <hr id="edu">
+          <span id="resume">
+            <p>Still want to waste a paper?</p>
+            <button id="downloadBtn">Download Resume <img src="svg-icons/Download arrow.png" alt="arrow"></button>
+          </span>
+        </div>
+        <hr class="hor">
+        <div class="skills">
+          <h2>👨‍💻Technical Skills</h2>
+         <div class="skill">
+           <div class="programming">
+             <p id="head">Programming Languages</p>
+             <span id="content">
+               <p><img src="Icons/Python.png" alt="Python png"> Python</p>
+               <p><img src="Icons/C++.png" alt="c++ png"> C++ (Primary Language)</p>
+               <p><img src="Icons/C.png" alt="c png"> C</p>
+               <p><img src="Icons/java.png" alt="java png"> Java</p>
+               <p><img src="Icons/R.png" alt="R png"> R Programming</p>
+             </span>
+           </div>
+           <div class="Development">
+             <p id="head">Web Development</p>
+             <span id="content">
+               <p><img src="Icons/html.png" alt="html png"> HTML</p>
+               <p><img src="Icons/css.png" alt="css png"> CSS</p>
+               <p><img src="Icons/javaSricpt.png" alt="javaSricpt png"> JavaScript</p>
+               <p id="head">FrameWorks</p>
+               <p><img src="Icons/Tailwind.png" alt="Tailwindpng"> Tailwind CSS</p>
+               <p><img src="Icons/Node.png" alt="Node png"> Node js</p>
+             </span>
+           </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <section class="works" id="works">
+      <h1>My Works</h1>
+      <p>Compiled some of the minor projects in my 2 years of computer science <br>
+        Engineering it was fun and some of the projects may be weird i guess 
+        </p>
+      <div class="work-container">
+        <div class="front box">
+          <img src="work-icons/Landing page.png" alt="FrontEnd">
+          <h3 class="title">Front End Projects</h3>
+          <p class="para">Elevate your web presence with my
+            stunning frontend projects that are
+            designed to capture attention and
+            enhance user experience.</p>
+        </div>
+        <div class="UI box">
+          <img src="work-icons/Figma.png" alt="">
+          <h3 class="title">Ui Designs</h3>
+          <p class="para">Experience stunning user interfaces
+            with my unique and modern
+            designs that prioritize both form
+            and function.</p>
+        </div>
+        <div class="Coding box">
+          <img src="work-icons/Software engineer.png" alt="">
+          <h3 class="title">Fun coding Projects</h3>
+          <p class="para">
+            Explore the playful side of coding
+            with my innovative and engaging
+            programs that showcase my
+            creativity and technical skills.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="social">
+        <div class="quote-container">
+          <h3>Random Quote</h3>
+          <div class="quote" id="quoteDisplay"></div>
+          <div class="quote" id="quoteAuthor"></div>
+          <button id="quoteBtn" class="btn">Get another quote</button>
+        </div>
+        <div class="social-links">
+          <h3>Let's stay in touch</h3>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/aniketh___03_/"><img src="Social-icons/Instagram.png" alt=""></a>
+            <a href="http://www.linkedin.com/in/Aniketh03"><img src="Social-icons/Linkedin.png" alt=""></a>
+            <a href="mailto:anikethbusavale@gmail.com"><img src="Social-icons/Gmail.png" alt=""></a>
+            <a href="https://www.facebook.com/aniketh.busavala"><img src="Social-icons/Facebook circular logo.png" alt=""></a>
+            <a href="https://github.com/Aniketh003"><img src="Social-icons/Github.png" alt=""></a>
+            <a href="https://twitter.com/Aniketh003"><img src="Social-icons/Twitter.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <script src="script.js"></script>
+  </body>
+</html>
