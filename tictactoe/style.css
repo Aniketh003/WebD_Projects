@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fffa9ece;
+}
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 286px;
+    margin: auto;
+}
+
+.cell{
+    width: 95px;
+    line-height: 55px;
+    height:95px;
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    color: rgb(75, 75, 75);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+h1{
+    font-size: 60px;
+    margin: 20px 0;
+}
+h2{
+    margin-top: 20px;
+    font-size: 35px;
+}
+button{
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #ff4141a4;
+    cursor: pointer;
+}
+
